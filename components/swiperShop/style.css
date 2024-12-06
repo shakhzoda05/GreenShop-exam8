@@ -1,0 +1,21 @@
+  .swiper-shop {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  .swiper-shop  .swiper-slide-shop {
+    font-size: 18px;
+    background: #fff !important;
+  
+    display: flex   !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .swiper-pagination {
+    position: static !important;
+    margin-top:30px !important; ;
+  }
+
+
+  

@@ -1,0 +1,31 @@
+.modal-outer {
+    position: fixed ;
+    background-color: rgb(0 0 0 / 0.2);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(15px) ;
+    transform: scale(0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
+    z-index: 50;
+}
+.open{
+    transform: scale(1);
+}
+.modal-inner {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    top: 17px;
+    right: 14px;
+}

@@ -1,0 +1,1 @@
+export const APi = process.env.NEXT_PUBLIC_API

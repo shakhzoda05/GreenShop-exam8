@@ -1,0 +1,28 @@
+.swiper-home {
+  height: 450px;
+  z-index: 10;
+  border-radius: 12px;
+  background: #FBFBFB;
+
+}
+.swiper-home  .swiper-slide-home {
+  border-radius: 12px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  position: relative;
+}
+
+
+@media (max-width: 768px) {
+  .swiper-slide-home {
+    justify-content: start;
+    padding: 24px;
+  }
+
+  .swiper-home {
+    height: auto;
+  }
+}
