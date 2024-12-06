@@ -1,4 +1,4 @@
-import { Context } from '@/context/Context'
+import { Context } from '@/context/FilterContext'
 import Button from '@/helper/components/button/Button'
 import React, { useContext } from 'react'
 

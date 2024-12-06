@@ -1,15 +1,12 @@
 "use client";
 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ProductImg from '../../public/product.png'
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 
 import './styles.css';
 
-// import Swiper core and required modules
 import { Autoplay } from 'swiper/modules';
 import Image from 'next/image';
 import { ArrowIcon } from '@/public/images/icon';

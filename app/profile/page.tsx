@@ -1,6 +1,6 @@
 "use client";
 
-import { Context } from '@/context/Context';
+import { Context } from '@/context/FilterContext';
 import Modal from '@/helper/components/modal/Modal';
 import { LogIcon } from '@/public/images/icon'
 import { useRouter } from 'next/navigation';

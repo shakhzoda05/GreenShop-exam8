@@ -3,7 +3,7 @@
 import axios from "axios";
 import { APi } from "./useEnv";
 import { useContext, useMemo } from "react";
-import { Context } from "@/context/Context";
+import { Context } from "@/context/FilterContext";
 
 export const useAxios = () => {
 

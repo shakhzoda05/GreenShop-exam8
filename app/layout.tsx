@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Providers from "@/react-query/QueryProvider";
-import { ContextProvider } from "@/context/Context";
+import { ContextProvider } from "@/context/FilterContext";
 import { lazy } from "react";
 
 const Header = lazy(() => import("@/components/header/Header"))

@@ -1,7 +1,7 @@
 'use client'
 import React, { useContext, useState } from "react";
 import './style.css';
-import { Context } from "@/context/Context";
+import { Context } from "@/context/FilterContext";
 import { useQuery } from "@tanstack/react-query";
 import { useAxios } from "@/hooks/useAxios";
 import InputSlider from "@/components/Slider/InputSlider";

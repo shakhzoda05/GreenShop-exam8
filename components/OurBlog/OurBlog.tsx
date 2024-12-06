@@ -41,7 +41,7 @@ const OurBlog = () => {
         }
     ]
     return (
-        <section className='mb-8 md:mb-16 lg:mb-[100px] px-0 sm:px-4 md:px-6 lg:px-8'>
+        <section className='mb-8 md:mb-16 lg:mb-[100px] px-0 hover:shadow-lg'>
             <h2 className='text-center text-2xl md:text-[30px] font-bold text-[#3D3D3D] mb-2 sm:mb-[15px]'>Our Blog Posts</h2>
             <p className='text-sm md:text-[14px] mb-6 md:mb-[35px] text-center text-[#727272] leading-6 max-w-2xl mx-auto'>
                 We are an online plant shop offering a wide range of cheap and trendy plants.
