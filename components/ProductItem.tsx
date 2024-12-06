@@ -1,6 +1,6 @@
 "use client";
 
-import { Context } from '@/context/FilterContext';
+import { Context } from '@/context/Context';
 import { useAxios } from '@/hooks/useAxios';
 import { BasketIcon, LikeIcon } from '@/public/images/icon';
 import { ProductType } from '@/service/products/Products'

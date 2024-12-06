@@ -1,6 +1,6 @@
 "use client";
 
-import { Context } from '@/context/FilterContext';
+import { Context } from '@/context/Context';
 import Modal from '@/helper/components/modal/Modal';
 import { LogIcon } from '@/public/images/icon'
 import { useRouter } from 'next/navigation';
@@ -22,7 +22,6 @@ const ProfilePage = () => {
   return (
     <>
       <div className="flex flex-col md:flex-row w-full max-w-6xl mx-auto gap-8 p-4">
-        {/* Sidebar Navigation */}
         <div className="w-full md:w-64 flex-shrink-0">
           <h2 className="text-xl font-semibold mb-6">My Account</h2>
           <nav className="space-y-1">
@@ -36,14 +35,12 @@ const ProfilePage = () => {
           </nav>
         </div>
 
-        {/* Main Content Area */}
         <div className="flex-grow bg-white rounded-lg p-6">
           <div className="max-w-2xl">
             <h3 className="text-lg font-medium text-gray-900 mb-6">
               Personal Information
             </h3>
             <div className="space-y-6">
-              {/* User Info Display */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700">

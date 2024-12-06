@@ -7,16 +7,15 @@ import Button from '../../helper/components/button/Button';
 import { BasketIcon, FilterIcon, LogIcon, LogoIcon } from '@/public/images/icon';
 import Modal from '../../helper/components/modal/Modal';
 import { usePathname, useRouter } from 'next/navigation';
-import RegisterPart from '../auth/RegisterPart';
+import RegisterPart from '../auth/Register';
 import { useAxios } from '@/hooks/useAxios';
-import VerifyPart from '../auth/VerifyPart';
-import LoginPart from '../auth/LoginPart';
+import VerifyPart from '../auth/Verify';
+import LoginPart from '../auth/Login';
 import './style.css';
 import ResetPasword from '../auth/ResetPasword';
-import NewPasswordPart from '../auth/NewPasswordPart';
-import { Context } from '@/context/FilterContext';
+import NewPasswordPart from '../auth/NewPassword';
+import { Context } from '@/context/Context';
 import Input from '@/helper/components/input/Input';
-import Menubtn from '../MenuBtn/Menubtn';
 import { AuthType, NavListType } from '@/types';
 import { useQuery } from '@tanstack/react-query';
 import toast from 'react-hot-toast';
@@ -179,7 +178,6 @@ const Header = () => {
                             height={34}
                         />
                     </Link>
-                    <button onClick={() => setIsMenuBtnOpen(true)} className='md:hidden'><Menubtn /></button>
                 </div>
                 <nav className="hidden md:flex items-center justify-center gap-8 lg:gap-12">
                     {navList.map((item: NavListType) => (

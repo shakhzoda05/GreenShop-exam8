@@ -1,6 +1,6 @@
 "use client";
 
-import { Context } from '@/context/FilterContext';
+import { Context } from '@/context/Context';
 import Button from '@/helper/components/button/Button';
 import Modal from '@/helper/components/modal/Modal';
 import { useAxios } from '@/hooks/useAxios'

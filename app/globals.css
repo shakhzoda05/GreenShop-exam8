@@ -47,8 +47,4 @@
     height: 100%;
 }
 
-@media (max-width: 367px){
-    .product-item{
-        width: 100%;
-    }
-}
+

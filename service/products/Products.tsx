@@ -5,7 +5,7 @@ import { useQuery } from '@tanstack/react-query'
 import React, { useContext, useEffect, useState } from 'react'
 import './style.css'
 import ProductItem from '@/components/ProductItem';
-import { Context } from '@/context/FilterContext';
+import { Context } from '@/context/Context';
 import SortingDropdown from '@/components/SortingDropDown';
 import Pagination from '@/components/Pagination';
 import { Skeleton } from 'antd';
